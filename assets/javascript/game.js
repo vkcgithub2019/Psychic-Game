@@ -21,9 +21,13 @@ window.onload = function() {
 //Game loop
 document.onkeyup = function(event) {
 	var playerGuess = event.key;
+	if (playerGuess==="Shift" || playerGuess==="Enter"){
+		alert("not a valid key")
+	};
 	lettersGuessed.push(playerGuess);
 	console.log(computerGuess[0]);
 
+//correct guess
 if ((playerGuess === computerGuess[0]) && (guessesLeft > 0)) {
 	wins++;
 	guessesLeft = 10;
@@ -34,6 +38,7 @@ if ((playerGuess === computerGuess[0]) && (guessesLeft > 0)) {
 	console.log(computerGuess[0]);
 }
 
+//incorrect guess
 else if ((playerGuess !== computerGuess[0]) && (guessesLeft > 0)) {
 	guessesLeft = guessesLeft-1;
 }
