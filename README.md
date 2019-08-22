@@ -1,2 +1,5 @@
 # Psychic-Game
 For this assignment, we have to create a psychic game using HTML and Javascript. This is a very basic page with very little or no styling. The player has to guess what the computer's random choice of letter is. The program will keep track of the number of guesses and how many more chances are left, update the counters to indicate the number of wins and losses and also show the letter or letters that is or are already guessed. When the guesses reached the specified number of tries, in this case, 10 times, the game will reset and the player will have to press any key to start again. At this time, the counter for number of wins and losses will be updated and the number of guesses left will reset to 10.
+
+This is the link to the web page.
+https://vkcgithub2019.github.io/Psychic-Game/
